@@ -30,6 +30,7 @@
 "Optimize List" = "Optimize List";
 "Disable List" = "Disable List";
 "Selected Apps can NOT access the system.\nOther Apps can access the system." = "Selected Apps can NOT access the system.\nOther Apps can access the system.";
+"Modify environment variables to block all tweak loads except FlyJB. Do not activate unless app crashes or there is a special problem." = "Modify environment variables to block all tweak loads except FlyJB. Do not activate unless app crashes or there is a special problem.";
 "All tweaks will be disabled including FlyJB." = "All tweaks will be disabled including FlyJB.";
 "Update Memory Patch" = "Update Memory Patch";
 "View Patch Contents" = "View Patch Contents";

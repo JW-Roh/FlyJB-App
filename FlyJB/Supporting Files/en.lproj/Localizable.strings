@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  FlyJB
+
+  Created by xsf1re on 2021/01/31.
+  
+*/
+
+"Credit" = "Credit";
+"Development" = "Development";
+"Design" = "Design";
+"Version" = "Version";
+"Send Feedback" = "Send Feedback";
+"Recommend FlyJB" = "Recommend FlyJB";
+"View Source Code" = "View Source Code";
+"FlyJB X Feedback Request" = "FlyJB X Feedback Request";
+"Failed to request feedback" = "Failed to request feedback";
+"Your registered email could not be found. Please add at least one e-mail in the mail app." = "Your registered email could not be found. Please add at least one e-mail in the mail app.";
+"OK" = "OK";
+"Install Twitter" = "Install Twitter";
+"You must install Twitter and log in to recommend FlyJB." = "You must install Twitter and log in to recommend FlyJB";
+"Cancel" = "Cancel";
+"If crash happen, explain in detail what happens in some cases or send a crash log to help developers solve it." = "If crash happen, explain in detail what happens in some cases or send a crash log to help developers solve it.";
+"Device" = "Device";
+"Did you jailbreak your iPhone?\n\nThen FlyJB Tweak is a MUST!\n\nFeel free to use apps that detect jailbreak!\n\n#FlyJB By @XsF1re" = "Did you jailbreak your iPhone?\n\nThen FlyJB Tweak is a MUST!\n\nFeel free to use apps that detect jailbreak!\n\n#FlyJB By @XsF1re";
+"Activate FlyJB" = "Activate FlyJB";
+"Enable Dobby" = "Enable Dobby";
+"Last Update Date" = "Last Update Date";
+"Bypass List" = "Bypass List";
+"Optimize List" = "Optimize List";
+"Disable List" = "Disable List";
+"Selected Apps can NOT access the system.\nOther Apps can access the system." = "Selected Apps can NOT access the system.\nOther Apps can access the system.";
+"All tweaks will be disabled including FlyJB." = "All tweaks will be disabled including FlyJB.";
+"Update Memory Patch" = "Update Memory Patch";
+"View Patch Contents" = "View Patch Contents";
+"Some apps require a memory patch, so check the app version." = "Some apps require a memory patch, so check the app version.";
+"Reset Settings" = "Reset Settings";
+"List" = "List";
+"Update" = "Update";
+"Reset" = "Reset";
+"Are you going to reset all the settings?" = "Are you going to reset all the settings?";
+"Failed to reset all settings." = "Failed to reset all settings.";
+"All settings has been reset." = "All settings has been reset.";
+"Checking Update..." = "Checking Update...";
+"Get patch data from server." = "Get patch data from server.";
+"Update Failed" = "Update Failed";
+"Failed to get patch data from server. Please try again." = "Failed to get patch data from server. Please try again.";
+"The patch data was successfully received from the server." = "The patch data was successfully received from the server.";
+"Successfully Updated" = "Successfully Updated";
+"The current version does not support updating memory patch. Please update tweak to the latest version." = "The current version does not support updating memory patch. Please update tweak to the latest version.";
+"Patch data is already up to date." = "Patch data is already up to date.";
+"Settings" = "Settings";
+"Info" = "Info";
+"Search Apps" = "Search Apps";
+"I think it's you when the wind blows." = "I think it's you when the wind blows.";
+"If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch." = "If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch.";

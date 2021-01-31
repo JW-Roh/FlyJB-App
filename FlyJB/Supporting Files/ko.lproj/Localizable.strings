@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  FlyJB
+
+  Created by xsf1re on 2021/01/31.
+  
+*/
+
+"Credit" = "제작자";
+"Development" = "개발";
+"Design" = "디자인";
+"Version" = "버전";
+"Send Feedback" = "피드백 보내기";
+"Recommend FlyJB" = "공중제비 추천하기";
+"View Source Code" = "소스코드 보기";
+"FlyJB X Feedback Request" = "FlyJB X 피드백 요청";
+"Failed to request feedback" = "피드백 요청 실패";
+"Your registered email could not be found. Please add at least one e-mail in the mail app." = "사용자의 등록된 이메일을 찾을 수 없습니다. 기본 메일 앱에서 하나 이상의 메일을 추가해주세요.";
+"OK" = "확인";
+"Install Twitter" = "트위터 설치";
+"You must install Twitter and log in to recommend FlyJB." = "추천하려면 트위터를 설치하고 로그인하셔야됩니다.";
+"Cancel" = "취소";
+"If crash happen, explain in detail what happens in some cases or send a crash log to help developers solve it." = "충돌이 발생할 경우, 어떤 경우의 현상을 자세히 설명하거나 크래시 로그를 보내주시면 개발자가 해결하는데 도움이 됩니다.";
+"Device" = "기기";
+"Did you jailbreak your iPhone?\n\nThen FlyJB Tweak is a MUST!\n\nFeel free to use apps that detect jailbreak!\n\n#FlyJB By @XsF1re" = "아이폰을 탈옥하셨다고요?\n\n그렇다면 공중제비는 필수 트윅!\n\n탈옥 감지하는 앱을 제한없이 자유롭게 사용해보세요!\n\n#FlyJB X By @XsF1re";
+"Activate FlyJB" = "FlyJB 활성화";
+"Enable Dobby" = "Dobby 사용";
+"Last Update Date" = "마지막 업데이트 날짜";
+"Bypass List" = "우회 리스트";
+"Optimize List" = "최적화 리스트";
+"Disable List" = "비활성화 리스트";
+"Selected Apps can NOT access the system.\nOther Apps can access the system." = "선택된 앱들이 시스템에 접근하지 못하도록 막습니다.\n그 외의 앱들은 접근할 수 있습니다.";
+"Modify environment variables to block all tweak loads except FlyJB. Do not activate unless app crashes or there is a special problem." = "환경 변수를 수정하여 FlyJB 트윅을 제외한 모든 트윅 로드가 차단됩니다.\n앱이 튕기거나 특별한 문제가 없다면 활성화하지 마세요.";
+"All tweaks will be disabled including FlyJB." = "FlyJB를 포함한 모든 트윅이 비활성화됩니다.";
+"Update Memory Patch" = "메모리 패치 업데이트";
+"View Patch Contents" = "패치 내용 보기";
+"Some apps require a memory patch, so check the app version." = "일부 앱들은 메모리 패치가 필요하므로 앱버전을 확인하셔야 합니다.";
+"Reset Settings" = "설정 초기화";
+"List" = "리스트";
+"Update" = "업데이트";
+"Reset" = "초기화";
+"Are you going to reset all the settings?" = "모든 설정들을 초기화하실건가요?";
+"Failed to reset all settings." = "모든 설정들을 초기화하는데 실패하였습니다.";
+"All settings has been reset." = "모든 설정들을 초기화하였습니다.";
+"Checking Update..." = "업데이트 확인 중...";
+"Get patch data from server." = "서버로부터 패치 데이터를 받아옵니다.";
+"Update Failed" = "업데이트 실패";
+"Failed to get patch data from server. Please try again." = "서버로부터 패치 데이터를 받아오기 실패했습니다. 다시 시도해주세요.";
+"The patch data was successfully received from the server." = "서버로부터 패치 데이터를 받아오기 성공했습니다.";
+"Successfully Updated" = "업데이트 성공";
+"The current version does not support updating memory patch. Please update tweak to the latest version." = "현재 버전은 메모리 패치 업데이트를 지원하지 않습니다. 트윅을 최신버전으로 업데이트해주세요.";
+"Patch data is already up to date." = "패치 데이터가 이미 최신 상태입니다.";
+"Settings" = "설정";
+"Info" = "정보";
+"Search Apps" = "앱 검색하기";
+"I think it's you when the wind blows." = "바람이 불면 당신인 줄 알겠습니다.";
+"If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch." = "Dobby를 사용하지 않으면 일부 앱에서 우회 기능이 작동되지 않을 수 있으나 보통 메모리 패치로 해결될 수 있습니다.";

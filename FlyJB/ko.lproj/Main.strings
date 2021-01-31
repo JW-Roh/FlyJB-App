@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "설정"; ObjectID = "5Cq-kU-sh7"; */
+"5Cq-kU-sh7.title" = "설정";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Cgg-Q1-yaW"; */
+"Cgg-Q1-yaW.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CqE-nx-1mR"; */
+"CqE-nx-1mR.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "정보"; ObjectID = "FCR-7a-w1t"; */
+"FCR-7a-w1t.title" = "정보";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "QSP-1k-Yu5"; */
+"QSP-1k-Yu5.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "W4e-Fu-w6u"; */
+"W4e-Fu-w6u.text" = "Title";
+
+/* Class = "UINavigationController"; title = "Info"; ObjectID = "YRo-Xe-1W9"; */
+"YRo-Xe-1W9.title" = "Info";
+
+/* Class = "UITabBarItem"; title = "설정"; ObjectID = "bgE-xY-sc9"; */
+"bgE-xY-sc9.title" = "설정";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "d1m-eg-vuA"; */
+"d1m-eg-vuA.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "eBQ-4m-VzS"; */
+"eBQ-4m-VzS.text" = "Detail";
+
+/* Class = "UINavigationController"; title = "Settings"; ObjectID = "lT0-iq-EaW"; */
+"lT0-iq-EaW.title" = "Settings";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "u1g-YU-jof"; */
+"u1g-YU-jof.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ucS-uY-8Mo"; */
+"ucS-uY-8Mo.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "정보"; ObjectID = "vLj-Ip-6kt"; */
+"vLj-Ip-6kt.title" = "정보";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vzT-xj-we2"; */
+"vzT-xj-we2.text" = "Title";
+
+/* Class = "UISearchBar"; placeholder = "앱 검색하기"; ObjectID = "xCq-yt-aXO"; */
+"xCq-yt-aXO.placeholder" = "앱 검색하기";

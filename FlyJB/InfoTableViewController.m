@@ -27,7 +27,7 @@
     [self setTitle:NSLocalizedString(@"Info", nil)];
 
     version = @[NSLocalizedString(@"Version", nil)];
-    versionDetails = @[@"1.1.4"];
+    versionDetails = @[@"1.1.5"];
     info = @[NSLocalizedString(@"View Source Code", nil), NSLocalizedString(@"Send Feedback", nil), NSLocalizedString(@"Recommend FlyJB", nil)];
     issue = @[NSLocalizedString(@"Have issue on app list?", nil)];
     credit = @[NSLocalizedString(@"Credit", nil)];

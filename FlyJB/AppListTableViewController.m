@@ -100,10 +100,10 @@ static id currentTableView = nil;
                 [bundleIDs addObject:bundleID];
                 
 //                앱 이름을 가져옵니다. 단, 이름을 가지고 있지 않으면 건너뛰세요!
-                NSString *appName = appInfo[@"CFBundleDisplayName"];
-                if(appName == nil || [appName length] == 0)
-                    appName = appInfo[@"CFBundleName"];
-                if(!appName)
+                NSString *appName = [appInfo[@"CFBundleDisplayName"] description];
+                if(!appName || appName.length == 0)
+                    appName = [appInfo[@"CFBundleName"] description];
+                if(!appName || appName.length == 0)
                     continue;
                 [AppNameFromBundleID setObject:appName forKey:bundleID];
                 

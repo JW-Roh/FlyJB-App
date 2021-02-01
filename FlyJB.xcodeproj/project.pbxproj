@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D566332E25C7E0B60082441B /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D566332D25C7E0B60082441B /* IssueViewController.m */; };
+		D566334225C84E710082441B /* HomeUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D566334125C84E710082441B /* HomeUITabBarController.m */; };
 		D568803225C67EF000B6FE5B /* CreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D568803125C67EF000B6FE5B /* CreditTableViewController.m */; };
 		D568803D25C686BA00B6FE5B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D568803F25C686BA00B6FE5B /* Localizable.strings */; };
-		D568804425C6AB6F00B6FE5B /* HomeUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D568804325C6AB6F00B6FE5B /* HomeUITabBar.m */; };
 		D568804925C6C89600B6FE5B /* DobbyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D568804825C6C89600B6FE5B /* DobbyTableViewCell.m */; };
 		D568804E25C6EC9500B6FE5B /* Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = D568804D25C6EC9400B6FE5B /* Banner.png */; };
 		D590464525BED53D009393F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D590464425BED53D009393F3 /* AppDelegate.m */; };
@@ -25,12 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D566332C25C7E0B60082441B /* IssueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		D566332D25C7E0B60082441B /* IssueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
+		D566334025C84E710082441B /* HomeUITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeUITabBarController.h; sourceTree = "<group>"; };
+		D566334125C84E710082441B /* HomeUITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeUITabBarController.m; sourceTree = "<group>"; };
 		D568803025C67EF000B6FE5B /* CreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditTableViewController.h; sourceTree = "<group>"; };
 		D568803125C67EF000B6FE5B /* CreditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditTableViewController.m; sourceTree = "<group>"; };
 		D568803E25C686BA00B6FE5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D568804025C686FE00B6FE5B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D568804225C6AB6F00B6FE5B /* HomeUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeUITabBar.h; sourceTree = "<group>"; };
-		D568804325C6AB6F00B6FE5B /* HomeUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeUITabBar.m; sourceTree = "<group>"; };
 		D568804725C6C89600B6FE5B /* DobbyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DobbyTableViewCell.h; sourceTree = "<group>"; };
 		D568804825C6C89600B6FE5B /* DobbyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DobbyTableViewCell.m; sourceTree = "<group>"; };
 		D568804D25C6EC9400B6FE5B /* Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner.png; sourceTree = "<group>"; };
@@ -97,10 +100,12 @@
 				D590464925BED53D009393F3 /* ViewController.h */,
 				D590464A25BED53D009393F3 /* ViewController.m */,
 				D590464C25BED53D009393F3 /* Main.storyboard */,
+				D566334025C84E710082441B /* HomeUITabBarController.h */,
+				D566334125C84E710082441B /* HomeUITabBarController.m */,
+				D566332C25C7E0B60082441B /* IssueViewController.h */,
+				D566332D25C7E0B60082441B /* IssueViewController.m */,
 				D568803025C67EF000B6FE5B /* CreditTableViewController.h */,
 				D568803125C67EF000B6FE5B /* CreditTableViewController.m */,
-				D568804225C6AB6F00B6FE5B /* HomeUITabBar.h */,
-				D568804325C6AB6F00B6FE5B /* HomeUITabBar.m */,
 				D568804D25C6EC9400B6FE5B /* Banner.png */,
 				D5F352DC25C09A4C00A2E1A2 /* InfoTableViewController.h */,
 				D5F352DD25C09A4C00A2E1A2 /* InfoTableViewController.m */,
@@ -194,14 +199,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D568803225C67EF000B6FE5B /* CreditTableViewController.m in Sources */,
+				D566332E25C7E0B60082441B /* IssueViewController.m in Sources */,
 				D590464B25BED53D009393F3 /* ViewController.m in Sources */,
 				D590464525BED53D009393F3 /* AppDelegate.m in Sources */,
 				D5F352DE25C09A4C00A2E1A2 /* InfoTableViewController.m in Sources */,
 				D590466B25BF4507009393F3 /* SettingsCell.m in Sources */,
 				D590466225BEDF1F009393F3 /* SettingsTableViewController.m in Sources */,
 				D590465625BED53F009393F3 /* main.m in Sources */,
-				D568804425C6AB6F00B6FE5B /* HomeUITabBar.m in Sources */,
 				D568804925C6C89600B6FE5B /* DobbyTableViewCell.m in Sources */,
+				D566334225C84E710082441B /* HomeUITabBarController.m in Sources */,
 				D590466725BF2E5F009393F3 /* AppListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

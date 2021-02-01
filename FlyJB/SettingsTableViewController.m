@@ -7,6 +7,7 @@
 
 #import "SettingsTableViewController.h"
 #import "AppListTableViewController.h"
+#import <sys/stat.h>
 
 @interface SettingsTableViewController () {
     NSArray *enable;
@@ -55,6 +56,34 @@ static SettingsTableViewController* sharedInstance = nil;
     [self.tableView reloadData];
 }
 
+-(void)setPermission {
+    BOOL failedPermission = false;
+    if(chmod("/var/mobile/Library/Preferences/kr.xsf1re.flyjb.plist", 0644) == -1) {
+        failedPermission = true;
+    }
+    if(chmod("/var/mobile/Library/Preferences/kr.xsf1re.flyjb_optimize.plist", 0644) == -1) {
+        failedPermission = true;
+    }
+    if(chmod("/var/mobile/Library/Preferences/kr.xsf1re.flyjb_disabler.plist", 0644) == -1) {
+        failedPermission = true;
+    }
+
+    
+    if(failedPermission) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Setting Permission Failed", nil)
+                                                                       message:NSLocalizedString(@"Failed to set permission. Is your device jailbroken?", nil)
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil)
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:^(UIAlertAction *action){
+            [alert dismissViewControllerAnimated:YES completion:nil];
+        }];
+        
+        [alert addAction: ok];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath* indexPath = [self.tableView indexPathForCell:(UITableViewCell*)sender];
     if(indexPath != nil) {
@@ -70,6 +99,8 @@ static SettingsTableViewController* sharedInstance = nil;
     [[self class] createPreferenceIfNotExist];
     self.tableView.tableFooterView = [[UIView alloc] init];
     [self setTitle:NSLocalizedString(@"Settings", nil)];
+    
+    [self setPermission];
     
     enable = @[NSLocalizedString(@"Activate FlyJB", nil)];
     enableDobby = @[NSLocalizedString(@"Enable Dobby", nil)];

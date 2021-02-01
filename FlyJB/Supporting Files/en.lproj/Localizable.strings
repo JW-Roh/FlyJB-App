@@ -55,3 +55,9 @@
 "Search Apps" = "Search Apps";
 "I think it's you when the wind blows." = "I think it's you when the wind blows.";
 "If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch." = "If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch.";
+"Have issue on app list?" = "Have issue on app list?";
+"AppList Log" = "AppList Log";
+"Share" = "Share";
+"All of installed app will be display here.\nPlease send log if you had some problem." = "All of installed app will be display here.\nPlease send log if you had some problem.";
+"Setting Permission Failed" = "Setting Permission Failed";
+"Failed to set permission. Is your device jailbroken?" = "Failed to set permission. Is your device jailbroken?";
